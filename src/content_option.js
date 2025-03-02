@@ -1,76 +1,103 @@
-const logotext = "JOHN";
+import profileImage from "../src/assets/images/profile.jpg";
+
+const logotext = "AHAKIRI";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Ahakiri Cosmas Uke",
+    description: "I’m Ahakiri Cosmas Uke Full-stack developer & data scientist specializing in AI-driven solutions and seamless digital experiences.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Ahakiri Cosmas Uke",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Turning ideas into reality",
+        second: "Building intelligent solutions",
+        third: "Coding with creativity & precision",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Passionate about full-stack development and data science, I design and build intelligent, scalable, and user-friendly applications. From AI-powered insights to seamless web experiences, I turn complex problems into elegant solutions.",
+    your_img_url: profileImage,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A Bit About Myself",
+    aboutme: "I am a passionate Full-Stack Developer and Data Scientist with expertise in building scalable and intelligent applications. My skills range from frontend development using React.js to backend solutions with Node.js and Prisma ORM. With a strong foundation in PostgreSQL and Python-based AI models, I love solving complex problems and optimizing user experiences.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "Software Engineering Intern",
+        where: "Techvibes Ltd, Abuja",
+        date: "August 2024 – February 2025",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "AI-Based Web Application Developer",
+        where: "Course Final Project",
+        date: "March 2024 – April 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Backend Developer – Book Review App",
+        where: "Course Final Project",
+        date: "January 2024 – February 2024",
+    },
+    {
+        jobtitle: "Frontend Developer – Budget Allocation App",
+        where: "Course Final Project",
+        date: "December 2023 – January 2024",
     },
 ];
 
-const skills = [{
+
+const skills = [
+    {
+        name: "JavaScript",
+        value: 95,  
+    },
+    {
+        name: "React.js",
+        value: 90, 
+    },
+    {
+        name: "Node.js",
+        value: 90, 
+    },
+    {
+        name: "PostgreSQL",
+        value: 92,
+    },
+    {
+        name: "Prisma ORM",
+        value: 88, 
+    },
+    {
+        name: "Postman API Testing",
+        value: 95, 
+    },
+
+    {
         name: "Python",
-        value: 90,
+        value: 70, 
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Django",
+        value: 67,  
     },
     {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
+        name: "Flask",
+        value: 65,  
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+
+const services = [
+    {
+        title: "Frontend Development",
+        description: "Building responsive and scalable web applications using React.js, JavaScript, HTML, and CSS. Expertise in state management with Redux and Context API.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Backend Development",
+        description: "Developing robust backend systems with Node.js, Express.js, Prisma ORM, and PostgreSQL. Experience in API development and authentication systems.",
     },
 ];
+
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
@@ -136,9 +163,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "cosyberry3@gmail.com",
+    YOUR_PHONE: "+2348108962585",
+    description: "Feel free to reach out for collaborations, software development projects, or any inquiries. I'm always open to new opportunities and discussions!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +174,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/Berr7Wa7ne",
+    linkedin: "https://www.linkedin.com/in/ahakiri-uke-444619351/",
+    twitter: "https://x.com/CosyBerry18490",
 };
 export {
     meta,

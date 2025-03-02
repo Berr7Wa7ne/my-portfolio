@@ -92,8 +92,9 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    background-size: cover;
-    background-position: center;
+    background-size: contain; /* or auto */
+    background-position: top center; /* Adjust position */
+    background-repeat: no-repeat;
     min-height: 700px;
     position: relative;
 }
@@ -230,5 +231,6 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    filter: saturate(0.5);
+    /* filter: saturate(0.5); */
+    filter: none;
 }

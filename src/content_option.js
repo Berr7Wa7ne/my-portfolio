@@ -1,4 +1,8 @@
 import profileImage from "../src/assets/images/profile.jpg";
+import cbtadminDash from "../src/assets/images/cbtadmin-dashboard.PNG";
+import cbtexamPhoto from "../src/assets/images/cbtexam-photo.PNG";
+import onlineLibraryDash from "../src/assets/images/onlineLibrary-librarian.PNG";
+import onlineLibraryReader from "../src/assets/images/onlineLibrary-reader.PNG";
 
 const logotext = "AHAKIRI";
 const meta = {
@@ -29,19 +33,14 @@ const worktimeline = [
         date: "August 2024 – February 2025",
     },
     {
-        jobtitle: "AI-Based Web Application Developer",
-        where: "Course Final Project",
-        date: "March 2024 – April 2024",
+        jobtitle: "Frontend Software Developer",
+        where: "Sohclick Technology Limited, Jos, Plateau State",
+        date: "January 2022 – June 2023",
     },
     {
-        jobtitle: "Backend Developer – Book Review App",
-        where: "Course Final Project",
-        date: "January 2024 – February 2024",
-    },
-    {
-        jobtitle: "Frontend Developer – Budget Allocation App",
-        where: "Course Final Project",
-        date: "December 2023 – January 2024",
+        jobtitle: "AI/ML Engineer",
+        where: "National Centre for Artificial Intelligence and Robotics (NYSC)",
+        date: "September 2023 – August 2024",
     },
 ];
 
@@ -100,66 +99,66 @@ const services = [
 
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: cbtadminDash,
+        description: "A powerful CBT admin panel designed for tertiary institutions to manage exams, monitor student performance, and automate assessment workflows seamlessly.",
+        link: "https://cbt-admin-frontend.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: cbtexamPhoto,
+        description: "An intuitive and secure CBT platform for students to take exams effortlessly, with a smooth user experience and real-time result processing.",
+        link: "https://cbt-student-frontend.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: onlineLibraryDash,
+        description: "Manage your digital library with ease—add books, track checkouts, monitor overdue returns, and keep everything organized in one place.",
+        link: "https://newonlinelibreria.netlify.app/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: onlineLibraryReader,
+        description: "Discover, borrow, and return books seamlessly. Your personal digital library experience, anytime, anywhere",
+        link: "https://newonlinelibreria.netlify.app/",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/550/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 ];
 
 const contactConfig = {

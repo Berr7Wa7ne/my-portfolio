@@ -3,6 +3,7 @@ import cbtadminDash from "../src/assets/images/cbtadmin-dashboard.PNG";
 import cbtexamPhoto from "../src/assets/images/cbtexam-photo.PNG";
 import onlineLibraryDash from "../src/assets/images/onlineLibrary-librarian.PNG";
 import onlineLibraryReader from "../src/assets/images/onlineLibrary-reader.PNG";
+import FortPhoto from "../src/assets/images/Fort.PNG";
 
 const logotext = "AHAKIRI";
 const meta = {
@@ -118,11 +119,11 @@ const dataportfolio = [{
         description: "Discover, borrow, and return books seamlessly. Your personal digital library experience, anytime, anywhere",
         link: "https://newonlinelibreria.netlify.app/",
     },
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+    {
+        img: FortPhoto,
+        description: "Explore job opportunities with ease—connect with top employers and take the next step in your career with our seamless hiring platform.",
+        link: "https://shimmering-salmiakki-a12844.netlify.app/",
+    },
     // {
     //     img: "https://picsum.photos/400/700/?grayscale",
     //     description: "The wisdom of life consists in the elimination of non-essentials.",

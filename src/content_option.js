@@ -4,6 +4,7 @@ import cbtexamPhoto from "../src/assets/images/cbtexam-photo.PNG";
 import onlineLibraryDash from "../src/assets/images/onlineLibrary-librarian.PNG";
 import onlineLibraryReader from "../src/assets/images/onlineLibrary-reader.PNG";
 import FortPhoto from "../src/assets/images/Fort.PNG";
+import moverseApp from "../src/assets/images/moverseApp.PNG";
 
 const logotext = "AHAKIRI";
 const meta = {
@@ -52,8 +53,16 @@ const skills = [
         value: 95,  
     },
     {
+        name: "TypeScript",
+        value: 75,  
+    },
+    {
         name: "React.js",
         value: 90, 
+    },
+    {
+        name: "Next.js",
+        value: 80, 
     },
     {
         name: "Node.js",
@@ -124,11 +133,11 @@ const dataportfolio = [{
         description: "Explore job opportunities with ease—connect with top employers and take the next step in your career with our seamless hiring platform.",
         link: "https://shimmering-salmiakki-a12844.netlify.app/",
     },
-    // {
-    //     img: "https://picsum.photos/400/700/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+    {
+        img: moverseApp,
+        description: "Moverse Portfolio is a modern tech agency platform built with Next.js and Sanity CMS — showcasing digital services, client projects, and team expertise in branding, web, and mobile development.",
+        link: "https://moverse-portfolio.vercel.app/",
+    },
 
     // {
     //     img: "https://picsum.photos/400/600/?grayscale",
@@ -163,7 +172,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "cosyberry3@gmail.com",
+    YOUR_EMAIL: "ahakiricosmas@gmail.com",
     YOUR_PHONE: "+2348108962585",
     description: "Feel free to reach out for collaborations, software development projects, or any inquiries. I'm always open to new opportunities and discussions!",
     // creat an emailjs.com account 

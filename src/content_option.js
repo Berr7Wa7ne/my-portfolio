@@ -100,11 +100,11 @@ const skills = [
 const services = [
     {
         title: "Frontend Development",
-        description: "Building responsive and scalable web applications using React.js, JavaScript, HTML, and CSS. Expertise in state management with Redux and Context API.",
+        description: "Building responsive and scalable web applications using React.js, Next.js, JavaScript, HTML, and CSS. Expertise in state management with Redux and Context API.",
     },
     {
         title: "Backend Development",
-        description: "Developing robust backend systems with Node.js, Express.js, Prisma ORM, and PostgreSQL. Experience in API development and authentication systems.",
+        description: "Developing robust backend systems with Node.js, Express.js, Prisma ORM, Supabase, MongoDB and PostgreSQL. Experience in API development and authentication systems.",
     },
 ];
 

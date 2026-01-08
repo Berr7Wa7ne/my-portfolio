@@ -1,10 +1,11 @@
 import profileImage from "../src/assets/images/profile.jpg";
 import cbtadminDash from "../src/assets/images/cbtadmin-dashboard.PNG";
 import cbtexamPhoto from "../src/assets/images/cbtexam-photo.PNG";
-import onlineLibraryDash from "../src/assets/images/onlineLibrary-librarian.PNG";
-import onlineLibraryReader from "../src/assets/images/onlineLibrary-reader.PNG";
+import wellnessApp from "../src/assets/images/wellnessApp.PNG";
+import moverseAgent from "../src/assets/images/moverseAgent.jpeg";
 import FortPhoto from "../src/assets/images/Fort.PNG";
 import moverseApp from "../src/assets/images/moverseApp.PNG";
+import sasesApp from "../src/assets/images/sasesApp.PNG"
 
 const logotext = "AHAKIRI";
 const meta = {
@@ -108,42 +109,49 @@ const services = [
 ];
 
 
-const dataportfolio = [{
-        img: cbtadminDash,
-        description: "A powerful CBT admin panel designed for tertiary institutions to manage exams, monitor student performance, and automate assessment workflows seamlessly.",
-        link: "https://cbt-admin-frontend.vercel.app/",
-    },
-    {
-        img: cbtexamPhoto,
-        description: "An intuitive and secure CBT platform for students to take exams effortlessly, with a smooth user experience and real-time result processing.",
-        link: "https://cbt-student-frontend.vercel.app/",
-    },
-    {
-        img: onlineLibraryDash,
-        description: "Manage your digital library with ease—add books, track checkouts, monitor overdue returns, and keep everything organized in one place.",
-        link: "https://newonlinelibreria.netlify.app/",
-    },
-    {
-        img: onlineLibraryReader,
-        description: "Discover, borrow, and return books seamlessly. Your personal digital library experience, anytime, anywhere",
-        link: "https://newonlinelibreria.netlify.app/",
-    },
-    {
-        img: FortPhoto,
-        description: "Explore job opportunities with ease—connect with top employers and take the next step in your career with our seamless hiring platform.",
-        link: "https://shimmering-salmiakki-a12844.netlify.app/",
-    },
+const dataportfolio = [
     {
         img: moverseApp,
         description: "Moverse Portfolio is a modern tech agency platform built with Next.js and Sanity CMS — showcasing digital services, client projects, and team expertise in branding, web, and mobile development.",
         link: "https://moverse-portfolio.vercel.app/",
     },
 
-    // {
-    //     img: "https://picsum.photos/400/600/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+    {
+        img: moverseAgent,
+        description: "A WhatsApp-first agent console for Moverse Technologies, enabling internal agents to manage real-time customer conversations via Supabase-powered messaging and a WhatsApp Business API integration.",
+        link: "https://moverse-agent.vercel.app/",
+    },
+
+    {
+        img: wellnessApp,
+        description: "Wellness & Spiritual Healing platform offering empowering videos, holistic services, and handcrafted spiritual products — all managed via a custom-built admin panel.",
+        link: "https://wellness-application.vercel.app/",
+    },
+
+    {
+        img: FortPhoto,
+        description: "Explore job opportunities with ease—connect with top employers and take the next step in your career with our seamless hiring platform.",
+        link: "https://shimmering-salmiakki-a12844.netlify.app/",
+    },
+
+    {
+        img: sasesApp,
+        description: "A responsive real estate landing page designed to highlight houses for rent and lease in a clean, user-focused layout.",
+        link: "https://sases-app.vercel.app/",
+    },
+
+    {
+        img: cbtadminDash,
+        description: "A powerful CBT admin panel designed for tertiary institutions to manage exams, monitor student performance, and automate assessment workflows seamlessly.",
+        link: "https://cbt-admin-frontend.vercel.app/",
+    },
+
+    {
+        img: cbtexamPhoto,
+        description: "An intuitive and secure CBT platform for students to take exams effortlessly, with a smooth user experience and real-time result processing.",
+        link: "https://cbt-student-frontend.vercel.app/",
+    },
+
     // {
     //     img: "https://picsum.photos/400/300/?grayscale",
     //     description: "The wisdom of life consists in the elimination of non-essentials.",

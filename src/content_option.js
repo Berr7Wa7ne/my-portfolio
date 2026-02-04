@@ -5,45 +5,50 @@ import wellnessApp from "../src/assets/images/wellnessApp.PNG";
 import moverseAgent from "../src/assets/images/moverseAgent.jpeg";
 import FortPhoto from "../src/assets/images/Fort.PNG";
 import moverseApp from "../src/assets/images/moverseApp.PNG";
-import sasesApp from "../src/assets/images/sasesApp.PNG"
+import sasesApp from "../src/assets/images/sasesApp.PNG";
+import trxApp from "../src/assets/images/trx-image.PNG"
 
-const logotext = "AHAKIRI";
+const logotext = "/profile-logo.png";
 const meta = {
-    title: "Ahakiri Cosmas Uke",
-    description: "I’m Ahakiri Cosmas Uke Full-stack developer & data scientist specializing in AI-driven solutions and seamless digital experiences.",
+  title: "Uke Cosmas",
+  description:
+    "I’m Uke Cosmas, a full-stack developer who builds reliable web platforms with React, Next.js, Node.js, and modern databases like PostgreSQL and MongoDB. I focus on creating clear APIs, well-structured systems, and practical user experiences across real-world products. I turn complex problems into elegant solutions.",
 };
 
 const introdata = {
-    title: "I’m Ahakiri Cosmas Uke",
-    animated: {
-        first: "Turning ideas into reality",
-        second: "Building intelligent solutions",
-        third: "Coding with creativity & precision",
-    },
-    description: "Passionate about full-stack development and data science, I design and build intelligent, scalable, and user-friendly applications. From AI-powered insights to seamless web experiences, I turn complex problems into elegant solutions.",
-    your_img_url: profileImage,
+  title: "I’m Uke Cosmas",
+  animated: {
+    first: "Turning ideas into working products",
+    second: "Building systems that solve real problems",
+    third: "Writing code with purpose and clarity",
+  },
+  description:
+    "Passionate about full-stack development, I build reliable web platforms with React, Next.js, Node.js, and modern databases like PostgreSQL and MongoDB. I focus on creating clear APIs, well-structured systems, and practical user experiences across real-world products. I turn complex problems into elegant solutions.",
+  your_img_url: profileImage,
 };
 
 const dataabout = {
-    title: "A Bit About Myself",
-    aboutme: "I am a passionate Full-Stack Developer and Data Scientist with expertise in building scalable and intelligent applications. My skills range from frontend development using React.js to backend solutions with Node.js and Prisma ORM. With a strong foundation in PostgreSQL and Python-based AI models, I love solving complex problems and optimizing user experiences.",
+  title: "A Bit About Myself",
+  aboutme:
+    "I’m a full-stack developer focused on building reliable web platforms with React, Next.js, Node.js, and modern databases like PostgreSQL and MongoDB. I work on creating clear APIs and well-structured systems that support real product workflows. I enjoy solving complex problems and turning them into simple, effective solutions.",
 };
+
 
 const worktimeline = [
     {
-        jobtitle: "Software Engineering Intern",
+        jobtitle: "Software Developer",
         where: "Techvibes Ltd, Abuja",
-        date: "August 2024 – February 2025",
+        date: "August 2024 – October 2025",
     },
     {
-        jobtitle: "Frontend Software Developer",
+        jobtitle: "Software Developer – AI-Driven Systems",
+        where: "National Centre for Artificial Intelligence and Robotics",
+        date: "September 2023 – August 2024",
+    },
+    {
+        jobtitle: "Frontend Developer (Internship)",
         where: "Sohclick Technology Limited, Jos, Plateau State",
         date: "January 2022 – June 2023",
-    },
-    {
-        jobtitle: "AI/ML Engineer",
-        where: "National Centre for Artificial Intelligence and Robotics (NYSC)",
-        date: "September 2023 – August 2024",
     },
 ];
 
@@ -55,7 +60,7 @@ const skills = [
     },
     {
         name: "TypeScript",
-        value: 75,  
+        value: 90,  
     },
     {
         name: "React.js",
@@ -63,7 +68,11 @@ const skills = [
     },
     {
         name: "Next.js",
-        value: 80, 
+        value: 90, 
+    },
+        {
+        name: "Tailwind CSS",
+        value: 95, 
     },
     {
         name: "Node.js",
@@ -74,7 +83,7 @@ const skills = [
         value: 92,
     },
     {
-        name: "Prisma ORM",
+        name: "MongoDB",
         value: 88, 
     },
     {
@@ -86,30 +95,31 @@ const skills = [
         name: "Python",
         value: 70, 
     },
-    {
-        name: "Django",
-        value: 67,  
-    },
-    {
-        name: "Flask",
-        value: 65,  
-    },
 ];
 
 
 const services = [
-    {
-        title: "Frontend Development",
-        description: "Building responsive and scalable web applications using React.js, Next.js, JavaScript, HTML, and CSS. Expertise in state management with Redux and Context API.",
-    },
-    {
-        title: "Backend Development",
-        description: "Developing robust backend systems with Node.js, Express.js, Prisma ORM, Supabase, MongoDB and PostgreSQL. Experience in API development and authentication systems.",
-    },
+  {
+    title: "Frontend Development",
+    description:
+      "Building user interfaces that are clear, responsive, and aligned with real product workflows. I focus on structuring frontend systems that are easy to maintain, extend, and integrate with backend services.",
+  },
+  {
+    title: "Backend Development",
+    description:
+      "Developing APIs and backend systems that support real business logic and data flows. I design database structures, API contracts, and service layers that ensure reliability, consistency, and smooth communication between system components.",
+  },
 ];
 
 
+
 const dataportfolio = [
+    {
+        img: trxApp,
+        description: "TRX is a multi-role fintech platform designed to support buyer, seller, financier, and administrative workflows, with modules spanning onboarding, wallets, invoicing, dashboards, and transaction management.",
+        link: "https://trx-platform-two.vercel.app/login",
+    },
+
     {
         img: moverseApp,
         description: "Moverse Portfolio is a modern tech agency platform built with Next.js and Sanity CMS — showcasing digital services, client projects, and team expertise in branding, web, and mobile development.",
@@ -152,11 +162,6 @@ const dataportfolio = [
         link: "https://cbt-student-frontend.vercel.app/",
     },
 
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
     // {
     //     img: "https://picsum.photos/400/?grayscale",
     //     description: "The wisdom of life consists in the elimination of non-essentials.",

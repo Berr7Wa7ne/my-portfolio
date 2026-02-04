@@ -48,7 +48,7 @@ export const ContactUs = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Error: Failed to send a request to the Function. Please try again later or contact me at ahakiricosmas@gmail.com.`,
             variant: "danger",
             show: true,
           });

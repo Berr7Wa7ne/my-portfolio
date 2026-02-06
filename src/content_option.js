@@ -7,6 +7,7 @@ import FortPhoto from "../src/assets/images/Fort.PNG";
 import moverseApp from "../src/assets/images/moverseApp.PNG";
 import sasesApp from "../src/assets/images/sasesApp.PNG";
 import trxApp from "../src/assets/images/trx-image.PNG"
+import QPlus from "../src/assets/images/Q+.png"
 
 const logotext = "/profile-logo.png";
 const meta = {
@@ -121,6 +122,12 @@ const dataportfolio = [
     },
 
     {
+        img: QPlus,
+        description: "QampusPlus is a School Management Solution that automates all school administrative processes. Qampusplus is a user friendly and highly efficient application!",
+        link: "https://qampusplusapp.com",
+    },
+
+    {
         img: moverseApp,
         description: "Moverse Portfolio is a modern tech agency platform built with Next.js and Sanity CMS — showcasing digital services, client projects, and team expertise in branding, web, and mobile development.",
         link: "https://moverse-portfolio.vercel.app/",
@@ -162,11 +169,6 @@ const dataportfolio = [
         link: "https://cbt-student-frontend.vercel.app/",
     },
 
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
     // {
     //     img: "https://picsum.photos/400/550/?grayscale",
     //     description: "The wisdom of life consists in the elimination of non-essentials.",

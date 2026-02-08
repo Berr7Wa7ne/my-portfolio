@@ -8,7 +8,7 @@ import moverseApp from "../src/assets/images/moverseApp.PNG";
 import sasesApp from "../src/assets/images/sasesApp.PNG";
 import trxApp from "../src/assets/images/trx-image.PNG"
 import QPlus from "../src/assets/images/Q+.png"
-import Qpay from "../src/assets/images/Qpay.png"
+import Qpay from "../src/assets/images/Qpay.PNG"
 
 
 const logotext = "/profile-logo.png";

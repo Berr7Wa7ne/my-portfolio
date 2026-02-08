@@ -15,7 +15,7 @@ const logotext = "/profile-logo.png";
 const meta = {
   title: "Uke Cosmas",
   description:
-    "I’m Uke Cosmas, a full-stack developer who builds reliable web platforms with React, Next.js, Node.js, and modern databases like PostgreSQL and MongoDB. I focus on creating clear APIs, well-structured systems, and practical user experiences across real-world products. I turn complex problems into elegant solutions.",
+  "I’m Uke Cosmas, a full-stack developer who builds reliable web platforms and AI-driven systems using React, Next.js, Node.js, Python, and modern databases like PostgreSQL and MongoDB. I integrate intelligent features into web applications, design clear APIs, and build well-structured systems that solve real-world problems at scale.",
 };
 
 const introdata = {
@@ -25,15 +25,15 @@ const introdata = {
     second: "Building systems that solve real problems",
     third: "Writing code with purpose and clarity",
   },
-  description:
-    "Passionate about full-stack development, I build reliable web platforms with React, Next.js, Node.js, and modern databases like PostgreSQL and MongoDB. I focus on creating clear APIs, well-structured systems, and practical user experiences across real-world products. I turn complex problems into elegant solutions.",
+ description:
+  "Passionate about full-stack development and AI-driven systems, I build scalable web platforms using React, Next.js, Node.js, Python, and modern databases like PostgreSQL and MongoDB. I focus on integrating intelligent features, creating clear APIs, and designing structured architectures that support real product workflows and data-driven solutions.",
   your_img_url: profileImage,
 };
 
 const dataabout = {
   title: "A Bit About Myself",
   aboutme:
-    "I’m a full-stack developer focused on building reliable web platforms with React, Next.js, Node.js, and modern databases like PostgreSQL and MongoDB. I work on creating clear APIs and well-structured systems that support real product workflows. I enjoy solving complex problems and turning them into simple, effective solutions.",
+  "I’m a full-stack developer with experience building web platforms and AI-driven systems using React, Next.js, Node.js, Python, and modern databases like PostgreSQL and MongoDB. I design structured system architectures, integrate intelligent features into applications, and build clear APIs that support real-world workflows. I enjoy solving complex problems and turning them into scalable, practical solutions.",
 };
 
 

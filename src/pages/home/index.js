@@ -48,7 +48,7 @@ export const Home = () => {
                     </div>
                   </Link>
                 <a
-                  href="https://drive.google.com/file/d/1f64Bf1LW80BpL9XfhuE75mcNdqX9p-QG/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1dh-PufCue5G4suwPKb-91IV46HS138sU/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

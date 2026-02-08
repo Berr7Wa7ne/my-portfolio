@@ -8,6 +8,8 @@ import moverseApp from "../src/assets/images/moverseApp.PNG";
 import sasesApp from "../src/assets/images/sasesApp.PNG";
 import trxApp from "../src/assets/images/trx-image.PNG"
 import QPlus from "../src/assets/images/Q+.png"
+import Qpay from "../src/assets/images/Qpay.png"
+
 
 const logotext = "/profile-logo.png";
 const meta = {
@@ -38,18 +40,18 @@ const dataabout = {
 const worktimeline = [
     {
         jobtitle: "Software Developer",
-        where: "Techvibes Ltd, Abuja",
-        date: "August 2024 – October 2025",
+        where: "Techvibes Ltd, Abuja - Nigeria",
+        date: "Mar 2024 – Nov 2025", 
     },
     {
         jobtitle: "Software Developer – AI-Driven Systems",
-        where: "National Centre for Artificial Intelligence and Robotics",
-        date: "September 2023 – August 2024",
+        where: "National Centre for Artificial Intelligence and Robotics, Abuja - Nigeria",
+        date: "Feb 2023 – Feb 2024",
     },
     {
         jobtitle: "Frontend Developer (Internship)",
-        where: "Sohclick Technology Limited, Jos, Plateau State",
-        date: "January 2022 – June 2023",
+        where: "Sohclick Technology Limited, Jos, Plateau State - Nigeria",
+        date: "Aug 2022 – Jan 2023",
     },
 ];
 
@@ -128,6 +130,12 @@ const dataportfolio = [
     },
 
     {
+        img: Qpay,
+        description: "QampusPay is a secure and reliable payment solution built specifically for schools and parents. Whether you're collecting tuition, hostel fees, or any other school payments.",
+        link: "https://qampuspay.com/",
+    },
+
+    {
         img: moverseApp,
         description: "Moverse Portfolio is a modern tech agency platform built with Next.js and Sanity CMS — showcasing digital services, client projects, and team expertise in branding, web, and mobile development.",
         link: "https://moverse-portfolio.vercel.app/",
@@ -169,16 +177,6 @@ const dataportfolio = [
         link: "https://cbt-student-frontend.vercel.app/",
     },
 
-    // {
-    //     img: "https://picsum.photos/400/550/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
     // {
     //     img: "https://picsum.photos/400/700/?grayscale",
     //     description: "The wisdom of life consists in the elimination of non-essentials.",
